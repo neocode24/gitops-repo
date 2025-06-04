@@ -6,6 +6,6 @@ namePrefix: dev-
 namespace: development
 images:
 - name: acraz01edu01.azurecr.io/edu00/myapp
-  newTag: latest
+  newName: acraz01edu01.azurecr.io/edu00/myapp
 - name: acraz01edu01.azurecr.io/neocode24/myapp
   newName: acraz01edu01.azurecr.io/neocode24/myapp
