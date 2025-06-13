@@ -13,4 +13,4 @@ images:
   newName: acraz01edu01.azurecr.io/npm-hello-world-main
 - name: npm-hello-world
   newName: acraz01edu01.azurecr.io/npm-hello-world-main
-  newTag: npm-hello-world.250613.1451.v004
+  newTag: npm-hello-world.250613.1514.v005
