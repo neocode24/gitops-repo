@@ -11,3 +11,6 @@ patchesStrategicMerge:
 images:
 - name: acraz01edu01.azurecr.io/npm-hello-world
   newName: acraz01edu01.azurecr.io/npm-hello-world-main
+- name: npm-hello-world
+  newName: acraz01edu01.azurecr.io/npm-hello-world-main
+  newTag: npm-hello-world.250613.1451.v004
