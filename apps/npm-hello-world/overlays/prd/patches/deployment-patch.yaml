@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: npm-hello-world  # 접두사 붙기 전 이름
+spec:
+  template:
+    spec:
+      imagePullSecrets:
+        - name: acr-auth-secret

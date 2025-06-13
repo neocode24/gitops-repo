@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: npm-hello-world
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: npm-hello-world
+  template:
+    metadata:
+      labels:
+        app: npm-hello-world
+    spec:
+      containers:
+      - name: npm-hello-world
+        image: acraz01edu01.azurecr.io/npm-hello-world:latest
+        ports:
+        - containerPort: 8080
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
